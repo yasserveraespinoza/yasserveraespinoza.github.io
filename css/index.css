@@ -1,0 +1,89 @@
+@import "./button.css";
+@import "./button-icon.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./wrapper.css";
+@import "./menu.css";
+@import "./project.css";
+@import "./social.css";
+@import "./footer.css";
+@import "./form.css";
+@import "./title.css";
+
+
+:root {
+  --fontBase: 'Poppins', sans-serif;
+  --headline1: bold 95px/153.71px var(--fontBase);
+  --headline2: bold 59px/95px var(--fontBase);
+  --headline3: bold 48px/77px var(--fontBase);
+  --headline4: bold 34px/55px var(--fontBase);
+  --headline5: bold 24px/38px var(--fontBase);
+  --body1: 16px/25px var(--fontBase);
+  --body2: 14px/22px var(--fontBase);
+  --button: bold 14px/22px var(--fontBase);
+  --caption: 12px/19px var(--fontBase);
+  /* Cambio del color de fondo a un gradiente de varias tonalidades de azul oscuro a claro */
+  --gradient: linear-gradient(to top, #0046bf, #005fe6, #0077ff, #339cff, #5bbcff, #83cfff, #a8d8ff, #cfefff);
+  --purple: #333333;
+  --green: #42E2B8;
+  --white: white;
+}
+
+
+
+
+/*:root {
+  --fontBase: 'Poppins', sans-serif;
+  --headline1: bold 95px/153.71px var(--fontBase);
+  --headline2: bold 59px/95px var(--fontBase);
+  --headline3: bold 48px/77px var(--fontBase);
+  --headline4: bold 34px/55px var(--fontBase);
+  --headline5: bold 24px/38px var(--fontBase);
+  --body1: 16px/25px var(--fontBase);
+  --body2: 14px/22px var(--fontBase);
+  --button: bold 14px/22px var(--fontBase);
+  --caption: 12px/19px var(--fontBase);
+  /* Cambio del color de fondo a un gradiente de varias tonalidades de verde claro a oscuro 
+  --gradient: linear-gradient(to bottom, #eaf7e8, #d8f3df, #c3f1d1, #a8ecbe, #8aeab9, #6de6b3, #4de2b1, #42E2B8);
+  --purple: #333333;
+  --green: #42E2B8;
+  --white: white;
+}
+*/
+body {
+  background: var(--gradient);
+  min-block-size: 100vh;
+  font: var(--body1);
+  color: #333;  /* Cambia el color del texto a un tono de gris más oscuro */
+  margin: 0;
+}
+
+
+/*:root {
+  --fontBase: 'Poppins', sans-serif;
+  --headline1: bold 95px/153.71px var(--fontBase);
+  --headline2: bold 59px/95px var(--fontBase);
+  --headline3: bold 48px/77px var(--fontBase);
+  --headline4: bold 34px/55px var(--fontBase);
+  --headline5: bold 24px/38px var(--fontBase);
+  --body1: 16px/25px var(--fontBase);
+  --body2: 14px/22px var(--fontBase);
+  --button: bold 14px/22px var(--fontBase);
+  --caption: 12px/19px var(--fontBase);
+  --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+  --purple: #310A90;
+  --green: #42E2B8;
+  --white: white;
+}
+
+body {
+  background: var(--gradient);
+  min-block-size: 100vh;
+  font: var(--body1);
+  color: var(--purple);
+  margin: 0;
+}
+*/
+
+
+
