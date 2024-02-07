@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Jesus</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <div class="header-content">
+        <img src="images/logo.jpeg" width="200" height="80" alt="logo muy bonito">
+        <nav class="menu" aria-label="main-navigation">
+          <ul>
+            <li>
+              <a class="is-active" href="#main">Hola</a>
+            </li>
+            <li>
+              <a href="#project">Habilidades Técnicas</a>
+            </li>
+            <li>
+              <a href="#contact">Hablemos</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="https://drive.google.com/file/d/1wbWF7he8hMtCjcYgSndXzYAIy1mhmwyV/view?usp=sharing" class="button">Curriculum vitae</a>
+      </div>
+    </div>
+  </header>
+  <div class="wrapper">
+
+
+    <section aria-label="main" class="hero" id="main">
+      <div class="hero-image">
+        <img src="images/37.png" width="338" height="330" alt="">
+      </div>
+      <div class="hero-description">
+        <h1>
+          <span>¡Hola a todos!</span>
+          <span>Soy Jesus Vera</span>
+        </h1>
+        <p>
+        "¡Hola! Soy Vera Espinoza, Jesus Yasser, un estudiante de ingeniería de sistemas e 
+        informática apasionado por la tecnología y la innovación. Me encanta resolver problemas
+        y aprender sobre nuevas tecnologías. Con habilidades en programación, análisis de datos
+        y desarrollo de software, estoy comprometido a contribuir al mundo digital con soluciones 
+        creativas y eficientes. Fuera de la tecnología, disfruto pasar tiempo al aire libre y
+        compartir momentos con amigos y familiares."  
+        </p>
+        <div class="social">
+          <a class="button-icon" href="numero.html"><img src="./icons/icon-phone.svg"></a>
+          <a class="button-icon" href="correo.html"><img src="./icons/icon-important_mail.svg"></a>
+          <a class="button-icon" href="https://www.instagram.com/jesus_yasser08/"><img src="./icons/icon-instagram.svg"></a>
+          <a class="button-icon" href="https://www.facebook.com/profile.php?id=100008090925780"><img src="icons/icon-twitter.svg"></a>
+          <a class="button-icon" href="https://www.linkedin.com/in/jesus-yasser-vera-espinoza-65bb70251/"><img src="icons/icon-github.svg"></a>
+        </div>
+        <p>Puedes ver mis proyectos en GitHub</p>
+        <a href="https://github.com/yasserveraespinoza" class="button">PROYECOS DE JESUS</a>
+      </div>
+    </section>
+    <div class="project" id="project">
+      <div class="project-image">
+        <img src="images/programacion.jpeg" alt="">
+      </div>
+      <div class="project-description">
+        <a class="title" target="_blank">Programación</a>
+        <p>Lenguajes de programación como Java, Python, C++, JavaScript, etc.</p>
+        <p>Desarrollo web: HTML, CSS, JavaScript.</p>
+      </div>
+
+    </div>
+
+    <div class="project">
+      <div class="project-image">
+        <img src="images/basededatos.jpg" alt="">
+      </div>
+      <div class="project-description">
+        <a class="title" target="_blank">Bases de datos</a>
+        <p>SQL (MySQL, SQLite, etc.).</p>
+        <p>Modelado de datos, diseño de bases de datos relacionales y no relacionales.</p>
+      </div>
+
+    </div>
+    <div class="project">
+      <div class="project-image">
+        <img src="images/habilidades.jpeg" alt="">
+      </div>
+      <div class="project-description">
+        <a class="title" target="_blank">Otras habilidades</a>
+        <p>Comunicación técnica efectiva.</p>
+        <p>Resolución de problemas.</p>
+        <p>Trabajo en equipo y colaboración.</p>
+        <p>Gestión de proyectos.</p>
+        <p>Aprendizaje autodidacta y adaptabilidad a nuevas tecnologías.</p>
+      </div>
+    </div>
+    <form action="enviar_email.php" method="POST" class="form">
+      <div class="form-content">
+        <h2 class="title">¡Hablemos!</h2>
+        <p>Si estás interesado en trabajar conmigo en tu próximo proyecto, no dudes en ponerte en contacto conmigo.</p>
+        
+        <label for="form-name">
+          Nombre Completo:
+          <input required name="name" id="form-name" type="text" placeholder="Ingrese su nombre completo">
+        </label>
+        
+        <label for="form-email">
+          Correo Electrónico:
+          <input required name="email" id="form-email" type="email" placeholder="Ingrese su correo electrónico">
+        </label>
+        
+        <label for="form-message">
+          Mensaje:
+          <textarea required name="message" id="form-message" placeholder="Escribe aquí tu mensaje" cols="30" rows="7"></textarea>
+        </label>
+        
+        <button class="button" type="submit">Enviar mensaje</button>
+      </div>
+    </form>
+    
+    <footer class="footer" id="contact">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="images/logo.jpeg" width="200" height="80" alt="logo muy bonito">
+        </div>
+
+        <div class="social">
+          <a class="button-icon" href="numero.html"><img src="./icons/icon-phone.svg"></a>
+          <a class="button-icon" href="correo.html"><img src="./icons/icon-important_mail.svg"></a>
+          <a class="button-icon" href="https://www.instagram.com/jesus_yasser08/"><img src="./icons/icon-instagram.svg"></a>
+          <a class="button-icon" href="https://www.facebook.com/profile.php?id=100008090925780"><img src="icons/icon-twitter.svg"></a>
+          <a class="button-icon" href="https://www.linkedin.com/in/jesus-yasser-vera-espinoza-65bb70251/"><img src="icons/icon-github.svg"></a>
+        </div>
+        <div class="footer-copyright">
+          <p>
+            HECHO POR JESUS YASSER VERA ESPINOZA 
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
